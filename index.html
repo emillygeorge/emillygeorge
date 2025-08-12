@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Dino Run • Bright Edition</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="game-canvas" aria-label="Dinosaur runner game" role="img"></canvas>
+      <div id="score" aria-live="polite">0</div>
+      <div id="hud" class="hud">
+        <div class="title">Dino Run</div>
+        <div class="subtitle">Tap / press Space to jump</div>
+        <div class="hint">Avoid obstacles. Good luck!</div>
+      </div>
+      <button id="restart" class="hidden" aria-label="Restart game">Restart</button>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
